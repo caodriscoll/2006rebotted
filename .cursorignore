@@ -1,0 +1,61 @@
+# deps and builds
+node_modules/
+vendor/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+target/
+coverage/
+.turbo/
+.cache/
+.parcel-cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# logs, dumps, data
+*.log
+logs/
+storage/logs/
+*.sql
+*.sqlite
+*.db
+*.dump
+*.gz
+*.zip
+*.tar
+
+# lockfiles and generated
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+composer.lock
+*.min.js
+*.min.css
+*.map
+
+# media and binaries
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.pdf
+*.woff
+*.woff2
+*.ttf
+*.dmg
+*.exe
+
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
